@@ -202,13 +202,6 @@ Standard deviation of standardized returns; the green band marks ±20% around pe
 
 ---
 
-## Resume blurb
-
-> **Multi-Factor Equity Risk Model (Barra-style)** — Python, NumPy, pandas  
-> Built an institutional-grade fundamental factor risk model over a 94-stock US universe: engineered six point-in-time style factors, estimated daily factor returns via cross-sectional WLS (1,200+ regressions), and constructed the asset covariance matrix Σ = BFBᵀ + D using EWMA/Newey-West factor covariance with PSD enforcement and shrinkage-stabilized specific risk. Implemented Euler risk decomposition and ex-ante tracking error for portfolio analysis, and validated volatility forecasts out-of-sample via walk-forward bias statistics (bias ≈ 0.92, target 1.0).
-
----
-
 ## Potential upgrades
 
 - Point-in-time index constituents (remove survivorship bias)
