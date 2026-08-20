@@ -2,7 +2,7 @@
 
 A complete fundamental multi-factor equity risk model built from first principles, replicating the architecture of commercial risk models (MSCI Barra USE4, Axioma AXUS4).
 
-The system estimates daily factor returns via cross-sectional weighted least squares over a ~94-name US large-cap universe, constructs an EWMA + Newey-West factor covariance matrix and a shrunk specific-risk model, assembles the full asset covariance matrix **Σ = B F Bᵀ + D**, and uses it to decompose portfolio risk, compute ex-ante tracking error, and validate forecasts out-of-sample with bias statistics.
+The system estimates daily factor returns via cross-sectional weighted least squares over a ~94-name US large-cap universe, constructs an EWMA + Newey-West factor covariance matrix and a shrunk specific-risk model, assembles the full asset covariance matrix, and uses it to decompose portfolio risk, compute ex-ante tracking error, and validate forecasts out-of-sample with bias statistics.
 
 **17 factors:** 11 GICS-style industry factors + 6 style factors (Beta, Momentum, Volatility, Size, Reversal, Liquidity), all built point-in-time with exposures lagged one day relative to the returns they explain.
 
