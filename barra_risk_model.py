@@ -11,7 +11,7 @@
 # 3. Estimates daily **factor returns** via cross-sectional weighted least squares (WLS)
 # 4. Builds the **factor covariance matrix** (EWMA + Newey-West adjustment) and the
 #    **specific (idiosyncratic) risk model**
-# 5. Assembles the full asset covariance matrix `Σ = B F Bᵀ + D`
+# 5. Assembles the full asset covariance matrix
 # 6. Decomposes portfolio risk into factor vs. specific components and computes
 #    **ex-ante tracking error** for a sample momentum-tilted portfolio
 # 7. Validates the model out-of-sample with **bias statistics**
